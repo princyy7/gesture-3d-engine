@@ -70,7 +70,6 @@ while True:
             fingers = get_finger_states(hand)
             gesture_text = recognize_gesture(fingers)
 
-            # Draw landmarks
             for lm in hand:
                 x = int(lm.x * frame.shape[1])
                 y = int(lm.y * frame.shape[0])

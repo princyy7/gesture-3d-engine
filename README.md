@@ -79,7 +79,7 @@ gesture-3d-engine/
 ### Run
 
 ```bash
-python hand_tracking.py
+python3 hand_tracking.py
 ```
 
 Hold one hand up to the camera and make a gesture. Press **`q`** to quit.
